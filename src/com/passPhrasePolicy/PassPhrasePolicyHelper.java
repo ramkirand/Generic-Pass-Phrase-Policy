@@ -1,17 +1,18 @@
-package com.moi.passPhrasePolicy;
+package com.passPhrasePolicy;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
-import net.sf.json.JSONObject;
+
 import org.apache.commons.collections.MapUtils;
+
+import net.sf.json.JSONObject;
 
 public class PassPhrasePolicyHelper {
   private Map<String, String> registeredPolicies = new HashMap<String, String>();

@@ -1,4 +1,4 @@
-package com.moi.passPhrasePolicy;
+package com.passPhrasePolicy;
 
 
 public interface IResponse {

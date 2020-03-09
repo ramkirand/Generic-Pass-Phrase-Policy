@@ -1,4 +1,4 @@
-package com.moi.passPhrasePolicy;
+package com.passPhrasePolicy;
 
 import net.sf.json.JSONObject;
 
