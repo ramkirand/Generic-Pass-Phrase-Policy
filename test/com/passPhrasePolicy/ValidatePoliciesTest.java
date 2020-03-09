@@ -37,7 +37,7 @@ public class ValidatePoliciesTest extends TestCase {
 		if (CollectionUtils.isNotEmpty(responses)) {
 			for (IResponse response : responses) {
 				System.out
-						.println("Code: " + response.getResponseCode() + ", Message: " + response.getResponseMessage());
+						.println("Code: " + response.getResponseCode() + ",Message: " + response.getResponseMessage());
 				assertTrue(IResponseCode.SUCCESS.equals(response.getResponseCode()));
 			}
 		}

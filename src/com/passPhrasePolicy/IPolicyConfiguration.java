@@ -1,7 +1,7 @@
 package com.passPhrasePolicy;
 
 public interface IPolicyConfiguration {
-  String getPolicyCode();
+	String getPolicyCode();
 
-  Object getConfiguration();
+	Object getConfiguration();
 }

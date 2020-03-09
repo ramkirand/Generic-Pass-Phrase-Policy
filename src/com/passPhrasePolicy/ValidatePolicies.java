@@ -18,7 +18,7 @@ public class ValidatePolicies implements IValidatePolicies {
 					IPassPhrasePolicy passPhrasePolicy = PassPhrasePolicyFactory.getInstance()
 							.getPasswordPolicy(policyMap.get(key));
 					if (passPhrasePolicy == null) {
-						System.out.println("Policy instance could not be created for policy: " + key);
+						System.out.println("Policy instance could not be created for policy : " + key);
 					} else {
 						responses.add(passPhrasePolicy.validatePolicy(passPhrase, configuration.getConfiguration()));
 					}

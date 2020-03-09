@@ -2,7 +2,6 @@ package com.passPhrasePolicy;
 
 import net.sf.json.JSONObject;
 
-
 public class LengthPolicy implements IPassPhrasePolicy {
 	private final String POLICY_CODE = "MIN_LENGTH";
 
@@ -21,7 +20,7 @@ public class LengthPolicy implements IPassPhrasePolicy {
 		}
 		return response;
 	}
-	
+
 	public String getPolicyCode() {
 		return POLICY_CODE;
 	}

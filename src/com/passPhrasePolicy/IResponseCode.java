@@ -1,5 +1,6 @@
 package com.passPhrasePolicy;
 
+//Response Codes
 public interface IResponseCode {
 	String SUCCESS = "Success";
 	String ERROR = "ERROR";

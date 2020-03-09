@@ -1,10 +1,9 @@
 package com.passPhrasePolicy;
 
-
 public class Response implements IResponse {
 	private String responseCode;
 	private String responseMessage;
-	
+
 	@Override
 	public String getResponseCode() {
 		return responseCode;
@@ -22,5 +21,5 @@ public class Response implements IResponse {
 	public void setResponseMessage(String responseMessage) {
 		this.responseMessage = responseMessage;
 	}
-	
+
 }
